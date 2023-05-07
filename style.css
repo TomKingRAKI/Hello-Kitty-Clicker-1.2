@@ -1,0 +1,599 @@
+body {
+    background-image: url('tloglownej.jpeg');
+    background-repeat: repeat;
+    background-size: 100%;
+    overflow-y: hidden;
+}
+
+#game {
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: pink;
+    opacity: 90%;
+    position: absolute;
+    margin-top: none;
+    margin-left: none;
+    z-index: -1;
+    margin: 0;
+}
+
+#acceptresetbackground {
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 60%;
+    visibility: hidden;
+}
+
+#acceptresetblock {
+    background-color: pink;
+    z-index: 2;
+    position: absolute;
+    border-radius: 30px;
+    margin-top: 15%;
+    margin-left: 40%;
+    padding: 3%;
+    text-align: center;
+    visibility: hidden;
+}
+
+#resetyes {
+    font-size: 200%;
+    cursor: pointer;
+    padding: 4%;
+    border-radius: 20px;
+    border: 2px solid greenyellow;
+}
+
+#resetno {
+    font-size: 200%;
+    margin-left: 20%;
+    cursor: pointer;
+    padding: 4%;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+.calosc {
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    top: 0;
+    left: 0;
+    margin-bottom: 0%;
+}
+
+.hellokittyblock {
+    height: 100%;
+    width: 31.5%;
+    margin-top: 0%;
+    top: -10px;
+    left: 0px;
+    border: 10px solid rgb(138, 64, 77);
+    position: absolute;
+    
+}
+
+.points {
+    height: 140px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(216, 163, 172);;
+    z-index: 1;
+}
+#punkty {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+	font-size: 700%;
+    z-index: 2;
+}
+
+#obrazek {
+	width: 50%;
+	height: 350px;
+    margin-top: 90px;
+    margin-left: 23%;
+	cursor: pointer;
+    
+    transition: transform 0.1s ease-in-out;
+}
+
+#obrazek :hover {
+    transform: scale(1.1);
+}
+
+#resetButton {
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+
+
+
+
+.hellokittycityblock {
+    position: absolute;
+    margin-left: 31.5%;
+    top: -10px;
+    border: 10px solid rgb(138, 64, 77);
+    height: 100%;
+    width: 44.5%;
+}
+
+.options {
+    height: 100px;
+    background-color: pink;
+    margin-top: -16px;
+    top: 0;
+    margin-left: 5px;
+}
+
+.textoptions {
+    margin-left: 30px;
+    margin-top: 25px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    top: 0;
+    font-size: 40px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.textinfo {
+    margin-left: 68%;
+    margin-top: 25px;
+    position: absolute;
+    font-size: 40px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: red;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+
+
+
+#bakerytlo {
+    width: 100%;
+    height: 130px;
+    top: 0;
+    margin-top: -8px; 
+    visibility: hidden;
+}
+
+#bakeryhr {
+    margin-top: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+    #firstbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        visibility: hidden;
+    }
+
+    #secondbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 20px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #thirdbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 70px;
+        visibility: hidden;
+    }
+
+    #fourbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 70px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #fivebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 120px;
+        visibility: hidden;
+    }
+
+    #sixbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 120px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #sevenbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 170px;
+        visibility: hidden;
+    }
+
+    #eightbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 170px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #ninebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 220px;
+        visibility: hidden;
+    }
+
+    #tenbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 220px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #elevenbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 270px;
+        visibility: hidden;
+    }
+
+    #twelwbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 270px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #trzynasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 320px;
+        visibility: hidden;
+    }
+
+    #czternasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 320px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #pietnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 370px;
+        visibility: hidden;
+    }
+
+    #szesnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 370px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #siedemnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 420px;
+        visibility: hidden;
+    }
+
+    #osiemnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 420px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #dziewietnasciebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 470px;
+        visibility: hidden;
+    }
+
+    #dwadziesciabuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 470px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentyonebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 520px;
+        visibility: hidden;
+    }
+
+    #twentytwobuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 520px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentythreebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 570px;
+        visibility: hidden;
+    }
+
+    #twentyfourbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 570px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentyfivebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 620px;
+        visibility: hidden;
+    }
+
+    #twentysixbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 620px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentysevenbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 670px;
+        visibility: hidden;
+    }
+
+    #twentyeightbuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 670px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+    #twentyninebuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 720px;
+        visibility: hidden;
+    }
+
+    #thirtybuybakery {
+        height: 50px;
+        width: 5%;
+        position: absolute;
+        z-index: 2;
+        left: 720px;
+        top: 170px;
+        visibility: hidden;
+    }
+
+
+
+
+
+#farm {
+    width: 790px;
+    height: 130px;
+    top: 0;
+    margin-top: -8px; 
+    visibility: hidden;
+}
+
+#farmhr {
+    margin-top: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+#mine {
+    width: 790px;
+    height: 130px;
+    top: 0;
+    margin-top: -8px;
+    visibility: hidden;
+}
+
+#minehr {
+    margin-top: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+#fabric {
+    width: 790px;
+    height: 130px;
+    top: 0;
+    margin-top: -8px;
+    visibility: hidden;
+}
+
+#fabrichr {
+    margin-top: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+#bank {
+    width: 790px;
+    height: 130px;
+    top: 0;
+    margin-top: -8px;
+    visibility: hidden;
+}
+
+#bankhr {
+    margin-top: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+
+
+
+.upgradeblock {
+    margin-left: 76.5%;
+    height: 100%;
+    top: -10px;
+    width: 22%;
+    position: absolute;
+    border: 10px solid rgb(138, 64, 77);
+    
+}
+
+.upgradeblock hr {
+    margin-top: 0;
+    top: 0;
+}
+
+.textstore {
+    width: 100%;
+    background-color: rgb(212, 162, 170);
+    height: 100px;
+}
+.textstore p {
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 44%;
+    font-size: 40px;
+}
+
+.clickpersecondstore {
+    position: relative;
+    margin-top: -8px;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(226, 155, 167);
+}
+
+#wiecejPunktow {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.howmanybuy {
+    margin-top: -8px;
+    top: 0;
+}
+
+.howmanybuy button {
+    width: 25%;
+    height: 80px;
+}
+
+.autoclickshop {
+    margin-top: -8px;
+    height: 67.4%;
+    background-color: brown;
+}
+
+#bakeryupgrade {
+    width: 100%;
+    height: 50px;
+}
+
+button :hover {
+    transform: scale(1.1);
+}
