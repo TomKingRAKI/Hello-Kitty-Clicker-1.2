@@ -1,7 +1,7 @@
 # Hello-Kitty-Clicker-1.2
 Alpha 1.2 Change logs
 
-ZMIANY
+ZMIANY<br>
 [/] Zmieniono Hello Kitty którą się klika
 [/] Zmieniono ramki i kreski na grubsze
 [/] Zmieniono lekko wyglądowo strone
